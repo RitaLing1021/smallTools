@@ -1,0 +1,16 @@
+.card {
+  width: 400px;
+  height: 200px;
+  border: #7ee8fa;
+  background: #FFF07C;
+}
+.card .title {
+  font-size: 24px;
+  color: #E58C8A;
+  text-align: center;
+}
+.card .content {
+  font-size: 18px;
+  color: #E58C8A;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

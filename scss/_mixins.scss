@@ -1,0 +1,5 @@
+@mixin font-size($size) {
+    font-size: $size;
+    color:$card-text-color;
+    text-align: center;
+  }

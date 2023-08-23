@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixins';
+
+.card{
+    width: $card-width;
+    height: $card-height;
+    border:$card-border-color;
+    background: $card-bg-color;
+    .title{
+        @include font-size(24px);
+    }
+    .content{
+        @include font-size(18px);
+    }
+}
