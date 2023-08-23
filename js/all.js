@@ -28,7 +28,7 @@ document.getElementById('calcuLate').onclick = function() {
   let colaCash = 20 ;
   let hamBurgerNum = parseInt(document.getElementById('hamBurger').value)*hamBurgerCash;
   let colaNum = parseInt(document.getElementById('cola').value)*colaCash;
-  document.getElementById('total').textContent = hamBurgerCash  + colaNum;
+  document.getElementById('total').textContent = hamBurgerNum  + colaNum;
 }
 
 
