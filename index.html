@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="scss/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>餐點計算</title>
 </head>
 <body>
@@ -13,6 +13,16 @@
       <p>服務生：Hello，請問要點些什麼？</p>
       <p> 顧客：我要<input type="text"  id="hamBurger">個漢堡，<input type="text"  id="cola">杯可樂。</p>
       <p>服務生：好的<input type="button" id="calcuLate" value="計算中">，這樣總共是<span id="total"></span>元</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="title">新國際西餐廳入場篇</div>
+    <div class="content">
+      <p>服務生：請問是會員嗎？如果是當日壽星，我們有打折喔</p>
+      <p> 顧客：我不是會員，但我是當日壽星 <span id="andCheck"></span></p>
+      <p>服務生：不好意思，我們不是會員但如果是當日壽星也可以折扣喔</p>
+      <p> 顧客：那我是當日壽星 <span id="orCheck"></span></p>
     </div>
   </div>
   <script src="js/all.js"></script>

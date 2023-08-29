@@ -1,8 +1,10 @@
 .card {
-  width: 400px;
-  height: 200px;
+  width: auto;
+  height: auto;
   border: #7ee8fa;
   background: #FFF07C;
+  margin: 1%;
+  padding: 1%;
 }
 .card .title {
   font-size: 24px;

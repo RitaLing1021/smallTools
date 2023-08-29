@@ -6,6 +6,8 @@
     height: $card-height;
     border:$card-border-color;
     background: $card-bg-color;
+    margin:1%;
+    padding: 1%;
     .title{
         @include font-size(24px);
     }

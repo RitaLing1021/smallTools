@@ -32,3 +32,11 @@ document.getElementById('calcuLate').onclick = function() {
 }
 
 
+let member = false;
+let birthday = true;
+let andCheck = member == true && birthday == true;
+let orCheck = member == true || birthday == true;
+
+
+document.getElementById('andCheck').textContent = andCheck;
+document.getElementById('orCheck').textContent = orCheck;
